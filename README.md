@@ -2,7 +2,7 @@
 
 LACChain ID is the second layer of the blockchain-based infrastructure that the LACChain Alliance is making available for enterprise use of blockchain in Latin America and the Caribbean. This second layer complements the first layer of public-permissioned blockchain networks by enabling the authentication and identification of the entities (individuals, organizations, things and processes) using the infrastructure. Assigning proper identifiers, it allows, as a principal use, to establish the ownership of the digital assets and settle legal accountabilities and responsibilities. The identity layer of LACChain is also essential for the third layer: Tokenized Fiat Money. It would not be possible to tokenize and transfer digital money in compliance with regulations without an identity layer allowing KYC and AML processes.
 
-![Internet_of_value](internet_of_value.png)
+![Internet_of_value](Internet_of_value.png)
 
 The partners collaborating with IDB Lab, the entity leading the LACChain Alliance, in the LACChain ID layer are Everis, Grupo Sabra, Idemia, IECISA, Latam Link, Multiledgers, RSK/IOVLabs, uPort, and World Data. The main goals of this working group are: 
 
