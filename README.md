@@ -2,7 +2,7 @@
 
 LACChain ID is the second layer of the blockchain-based infrastructure that the LACChain Alliance is making available for enterprise use of blockchain in Latin America and the Caribbean. This second layer complements the first layer of public-permissioned blockchain networks by enabling the authentication and identification of the entities (individuals, organizations, things and processes) using the infrastructure. Assigning proper identifiers, it allows, as a principal use, to establish the ownership of the digital assets and settle legal accountabilities and responsibilities. The identity layer of LACChain is also essential for the third layer: Tokenized Fiat Money. It would not be possible to tokenize and transfer digital money in compliance with regulations without an identity layer allowing KYC and AML processes.
 
-IMAGE
+![Internet_of_value](internet_of_value.png)
 
 The partners collaborating with IDB Lab, the entity leading the LACChain Alliance, in the LACChain ID layer are Everis, Grupo Sabra, Idemia, IECISA, Latam Link, Multiledgers, RSK/IOVLabs, uPort, and World Data. The main goals of this working group are: 
 
@@ -18,6 +18,8 @@ Regulation is the first layer of any identity model, including digital identity 
 The SSI model requires new technological components, standards, and protocols. At present, these three elements are under development, at different levels of maturity. We classify the technological components into seven categories:  Decentralized identifiers (DIDs); verifiable credentials (VCs); verifiable presentations (VPs); authentication, authorization, and identification; digital wallets; certificate authorities (CAs) and trust lists (TLs); and decentralized ledgers (DLTs). 
 
 A SSI model’s operation requires a “trust framework”.  According to the Open Identity Exchange (OIX) a trust framework is a is a “generic term often used to describe a legally enforceable set of specifications, rules, and agreements that govern a multi-party system established for a common purpose, designed for conducting specific types of transactions among a community of participants, and bound by a common set of requirements. […] They are referred to as operating regulations, scheme rules, or operating policies in contexts different from digital identity”. In a digital identity ecosystem, whether it is self-sovereign or not, a trust framework defines the governance model, the certificate authorities, the identity providers, the levels of assurance, and the communication channels, among others, allowing to establish root of trust, trust lists, revocation lists among other necessary trust elements.
+
+![Framework](Framework.png)
 
 ## 1. Regulation
 
@@ -184,6 +186,8 @@ According to the International Standards Organization (ISO), there are three typ
 ## 3.1. Governance
 
 LACChain introduces the LACChain ID governance model, that distinguishes different governance layers of an SSI ecosystem. We understand that there are, at least, five different layers with independent governance: the decentralized ledger, the block generation, the DID registry, the trusted lists, and the management of keys and credentials. When the ecosystem is government-based, the government will be very likely responsible for all or most of the layers. 
+
+![Internet_of_value](governance.png)
 
 ### 3.1.1. Governance of the network
 
