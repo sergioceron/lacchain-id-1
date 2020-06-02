@@ -191,23 +191,39 @@ LACChain introduces the LACChain ID governance model, that distinguishes differe
 
 ### 3.1.1. Governance of the network
 
-Based on ISO/UN terms and definitions, “DLT & blockchain systems governance is an approach that comprises elements of central and decentral decision rights, where the accountability is situated within the network and where incentives are provided to reach consensus”. The main objective of the DLT governance is the management of the system lifecycle management and “the DLT & blockchain systems governance lifecycle view addresses both the risks inherent to and the interests of DLT participants and broader stakeholders during the establishment, operation, and termination of the DLT system”.
+According to ISO/TC 307 SG 5 “DLT and blockchain systems governance is an approach that comprises elements of central and decentral decision rights, where the accountability is situated within the network and where incentives are provided to reach consensus […]. The governance of a DLT & blockchain systems oversees several key functions during the operational stage of the DLT & blockchain system, such as the enrolment of participatory rights for participants in the DLT & blockchain system and the contracting rules associated with participation in the DLT & blockchain system. All DLT & blockchain systems shall operate within the broader context of external legal and regulatory frameworks; in some case DLT & blockchain systems may provide guidance and on-chain mechanisms for managing the operation […]. The DLT and blockchain systems governance lifecycle view addresses both the risks inherent to and the interests of DLT participants and broader stakeholders during the establishment, operation, and termination of the DLT system ”  
 
-The conditions under which a user is given access to the LACChain’s system is based on the acceptance of LACChain’s terms of use to be enforced for all the period of usage. These access rules are entirely determined by the LACChain Alliance. In this DLT system it is not possible to become a validating node or even writer of the system without prior consent of the group of organizations who conform the LACChain Alliance. All parties behind the system are known, identifiable and organizations behind this permissioned system and LACChain is currently forming  an adequate corporate structure (L-Net) as the Underlaying Orquestration Company, formally distributed and no controlled by any singular organization, to manage the full lifecycle of the network.
+We understand that the essential tasks that comprise the governance of a decentralized registry or blockchain network can be divided into the three phases of the lifecycle: establishment, operation, and termination. These tasks are:
 
-As ISO/UN describes, “the governance of a DLT & blockchain systems oversees several key functions during the operational stage of the DLT & blockchain system, such as the enrolment of participatory rights for participants in the DLT & blockchain system and the contracting rules associated with participation in the DLT & blockchain system. All DLT & blockchain systems shall operate within the broader context of external legal and regulatory frameworks; in some case DLT & blockchain systems may provide guidance and on-chain mechanisms for managing the operation”. 
+**Establishment**
 
-Some of the main activities providing by LACChain’s coordination bodies are:
+* Definition of the economic incentives: Definition of the economic incentives to guarantee the sustainability of the blockchain.
 
-**Maintenance of the network:** Guaranteeing that the network runs without issues. In a blockchain network, issues as insufficient amount of validator nodes or a number of no responsive validator being over a certain threshold will interrupt the generation of new blocks. Maintenance for us means guaranteeing that the network will not fail, collapse, or die. 
+* Definition of the techno-legal framework: Definition of the framework that allows to establish the technical and legal body of the blockchain.
 
-**Technical support:** Helping in case something fails in the deployment or performance of nodes or applications on top of the network.
+* Deployment of the genesis block: Construction and deployment of the first block of the network that contains both soft (e.g. the initial validator nodes) and hard rules (e.g. the consensus protocol).
 
-**Upgrades:** Proactive research and developments in the network to improve performance and interoperability, among others.
+**Operation**
 
-**Permissioning:** Allowing nodes and accounts to join the network (whitelisting) and removing them (blacklisting) when they violate the agreements.
+* Certification/authentication of nodes: Providing nodes with an identity (e.g. a certificate) in the network that others recognize and that can be used to secure communication channels and sign transactions. 
 
-**Certification/authentication of nodes:** Providing nodes with an identity (e.g. a certificate) in the network that others recognize and that can be used to secure communication channels and sign transactions.
+* Gas/resources distribution: Managing the distribution of resources in the network between the users guaranteeing that it always operates under stress levels.
+
+* Maintenance of the network: Guaranteeing that the network runs without issues and will not fail, collapse, or die.
+
+* Monitoring: Providing dashboards and monitoring tools and performing monitoring tasks.
+
+* Permissioning: Allowing nodes and accounts to join the network (i.e. whitelisting) and removing them (i.e. blacklisting) when they violate the agreements. 
+
+* Technical support: Providing technical assistance in case something fails in the deployment or performance of nodes or applications on top of the network.
+
+* Upgrades: Proactive research and developments in the network to improve performance and interoperability, among others.
+
+**Termination**
+
+* Access to the history: Access to the history of the transactions.
+
+* Management of assets and data: Determination of how data or assets (e.g. smart contracts, tokens, proofs of certificates) are transferred, destroyed or disposed. 
 
 ### 3.1.2. Governance of the block generation
 
