@@ -259,7 +259,7 @@ The governance of the keys and credentials includes:
 •	Who can facilitate the key recovery for a subject
 •	Who is responsible and liable for a loss or theft of keys and credentials
 
-### 3.1.6. The governance of LACChain ID
+## 4. The governance of LACChain ID
 
 LACChain ID is developing a solution proposal to provide a scalable, decentralized, and transparent governance, that offers all the guaranties with regards to legal matters.
 
