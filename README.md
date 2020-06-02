@@ -21,11 +21,11 @@ A SSI model’s operation requires a “trust framework”.  According to the Op
 
 ![Framework](Framework.png)
 
-## 1. Regulation
+# 1. Regulation
 
 LACChain is developing all the technological solutions in alignment with the regulation of those countries where these solutions are being implemented. LACChain also ensures that data privacy and protection are compliant with the strictest standards of every country.
 
-## 2. Technology
+# 2. Technology
 
 ## 2.1 Decentralized identifiers (DIDs)
 
