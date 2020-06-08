@@ -144,7 +144,7 @@ LACChain ID introduces the LACChain ID Verification Process. It consists of the 
 
 ### 2.3.3. Traceability and monitoring
 
-When the off-chain storage of credentials recommended in Section 6.2.3. is adopted:
+When the off-chain storage of credentials is adopted:
 
 *	The exchange of credentials also happens off-chain, so it does not leave any track in the registry.
 
@@ -170,7 +170,7 @@ A digital wallet shall:
 
 A digital wallet may:
 
-*	Keep transactional information about the entities, if authorized to do so.
+*	Keep transactional information about the holders/subjects, if authorized to do so.
 *	Provide dashboards of activity.
 *	Provide mechanisms for reducing PII of the entities activities by combining the use of different DIDs for different interactions.
 
