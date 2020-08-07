@@ -199,8 +199,7 @@ According to the International Standards Organization (ISO), there are three typ
 
 **Permissioned public:** In a permissioned public network, a consortium initiates a network and allows everyone to join, provided that they meet certain requirements, such as being authenticated and compliant with regulations. In these networks, the consortium is self-sufficient and does not need to rely on a vendor. Permissioned public networks are open, transparent, decentralized, and do not have transaction fees. At the same time, every participant is identified so both privacy and compliance with regulation are enabled. Examples of these networks are Alastria in Spain, led by an association of over 500 members; EBSI in Europe led by the European Union; and LACChain in Latin America and the Caribbean, led by the Inter-American Development and its partners in the program.
 
-The self-sovereign identity model can leverage different types of blockchain networks in addition to other decentralized ledgers. However, permissioned public networks are the most suitable. Permissionless networks are designed to be anonymous and permissioned private networks are designed to be small and limited to specific use cases. Alternatively, permissioned public networks often have zero transaction fees, are compliant with regulations, and are designed to be multipurpose, making them a perfect fit for the decentralized ledger that self-sovereign identity demands. It is not a coincidence that the three public-permissioned ledgers mentioned in the previous paragraph are leading the SSI initiatives in their respective regions: the Alastria ID framework, the European blockchain-based digital passport, and the LACChain ID framework.
-
+The self-sovereign identity model can leverage different types of blockchain networks in addition to other decentralized ledgers. However, permissioned public networks are the most suitable. Permissionless networks are designed to be anonymous and permissioned private networks are designed to be small and limited to specific use cases. Alternatively, permissioned public networks often have zero transaction fees, are compliant with regulations, and are designed to be multipurpose, making them a perfect fit for the decentralized ledger that self-sovereign identity demands. 
 
 # 3. Trust frameworks
 
@@ -218,33 +217,33 @@ We understand that the essential tasks that comprise the governance of a decentr
 
 **Establishment**
 
-**Definition of the economic incentives:** definition of the economic incentives to guarantee the sustainability of the blockchain.
+* Definition of the economic incentives: definition of the economic incentives to guarantee the sustainability of the blockchain.
 
-**Definition of the techno-legal framework:** definition of the framework that allows to establish the technical and legal body of the blockchain.
+* Definition of the techno-legal framework: definition of the framework that allows to establish the technical and legal body of the blockchain.
 
-**Deployment of the genesis block:** construction and deployment of the first block of the network that contains both soft (e.g. the initial validator nodes) and hard rules (e.g. the consensus protocol).
+* Deployment of the genesis block: construction and deployment of the first block of the network that contains both soft (e.g. the initial validator nodes) and hard rules (e.g. the consensus protocol).
 
 **Operation**
 
-** Certification/authentication of nodes:** providing nodes with an identity (e.g. a digital certificate) in the network that others recognize and that can be used for authentication and signature of transactions. 
+* Certification/authentication of nodes: providing nodes with an identity (e.g. a digital certificate) in the network that others recognize and that can be used for authentication and signature of transactions. 
 
-** Gas/resources distribution:** managing the distribution of network resources between different users. Guaranteeing that the network always operates, even under high stress.
+* Gas/resources distribution: managing the distribution of network resources between different users. Guaranteeing that the network always operates, even under high stress.
 
-** Maintenance of the network:** maintaining the network to guarantee that the network runs without issues and will not fail, collapse, or die.
+* Maintenance of the network: maintaining the network to guarantee that the network runs without issues and will not fail, collapse, or die.
 
-** Monitoring:** providing dashboards and monitoring tools and performing monitoring tasks.
+* Monitoring: providing dashboards and monitoring tools and performing monitoring tasks.
 
-** Permissioning:** allowing nodes and accounts to join the network (i.e. whitelisting) and removing them (i.e. blacklisting) when they violate the agreements.
+* Permissioning: allowing nodes and accounts to join the network (i.e. whitelisting) and removing them (i.e. blacklisting) when they violate the agreements.
 
-** Technical support:** providing technical assistance in case something fails in the deployment or performance of nodes or applications on top of the network.
+* Technical support: providing technical assistance in case something fails in the deployment or performance of nodes or applications on top of the network.
 
-** Upgrades:** proactive research and developments in the network to improve security, efficiency, scalability, performance, and interoperability
+* Upgrades: proactive research and developments in the network to improve security, efficiency, scalability, performance, and interoperability.
 
 **Termination**
 
-* Access to the history: Access to the history of the transactions.
+* Access to the history: guaranteeing access to the history of transactions.
 
-* Management of assets and data: Determination of how data or assets (e.g. smart contracts, tokens, proofs of certificates) are transferred, destroyed or disposed. 
+* Management of assets and data: determining of how data or assets (e.g. smart contracts, tokens, proofs of certificates) are transferred, destroyed, or disposed. 
 
 ### 3.1.2. Governance of the block generation
 
@@ -254,13 +253,13 @@ The governance of the block generation is determined by the consensus protocol. 
 
 Each of the types of DID registries has a different governance model:
 
-**Credentials registry acting as identifier:** Each subject deploys a dedicated smart contract to register the DID. The subject is in complete control of the registry in the chosen network.
+**Credentials registry acting as identifier:** each subject deploys a dedicated smart contract to register the DID. The subject is in complete control of the registry.
 
-**Global identifiers registry:** As a single monolithic smart contract is deployed in the ledger to act as a global registry, the governance of the smart contract is the governance of the DID registry. 
+**Global identifiers registry:** because a single monolithic smart contract is deployed in the ledger to act as a global registry, the governance of the smart contract becomes governance of the DID registry. Different options are possible, including management by a centralized entity, a limited number of accounts, or a DAO.
 
-**Anchors registry:** Again, a single monolithic smart contract is deployed in this case, even the transactions are grouped and registered differently. Therefore, the same applies as for the global identifiers’ registry.
+**Anchors registry:** same as in the global identifiers registry.
 
-**Bring your own blockchain address:** In this case, there is not such a thing as a DID registry, at least a static one. The management and storage of the DIDs is done off-chain by the subject and/or holder and resolving a DID is done by iteration over its registries (transactions) in the ledger. 
+**Bring your own blockchain address:** : in this case, there is no such a thing as an on-chain DID registry. The management and storage of DIDs is done off-chain by the subject and/or holder, and resolving a DID is accomplished through iterations over its registries (transactions) in the ledger.  
 
 ### 3.1.4. Governance of the trusted lists
 
